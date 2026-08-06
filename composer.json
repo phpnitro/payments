@@ -1,0 +1,14 @@
+{
+    "name": "phpnitro/payments",
+    "description": "PhpNitro's payments package — payment provider integrations, currently Feexpay (Engine\\Payments\\*).",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Engine\\Payments\\": "src/"
+        }
+    }
+}
